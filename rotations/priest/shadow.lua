@@ -61,7 +61,7 @@ ProbablyEngine.rotation.register_custom(258, "Fétiche Priest", {
 			"!modifier.last(32379)",
 			(function()
 				if IsPlayerSpell(139139) then
-					if UnitDebuffID("target",PD,"PLAYER") then return false else return true end
+					if UnitDebuffID("target",DP,"PLAYER") then return false else return true end
 				else return true end end),
 			"@fetiche.clip(SWD)"
 		}, "target"},
